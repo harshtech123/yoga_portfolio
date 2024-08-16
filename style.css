@@ -1,0 +1,450 @@
+html {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    background-color: black;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.social-media {
+    margin-top: 15px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 25px;
+    height: 25px;
+}
+
+.footer img {
+    width: 50px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    max-width: 100%;
+    /* Ensure it doesn't overflow its container */
+}
+
+.footer img {
+    margin: 0 10px;
+    /* Adds space around the image */
+}
+
+/* Styling the Yoga Insights section */
+#yoga-api {
+    background-color: #000;
+    /* Black background */
+    color: #fff;
+    /* White text color */
+    padding: 20px;
+    /* Add padding around the section */
+}
+
+/* Styling the carousel */
+.carousel-inner {
+    max-width: 400px;
+    /* Limit the width of the carousel */
+    margin: 0 auto;
+    /* Center the carousel */
+    border-radius: 10px;
+    /* Add some rounded corners */
+    overflow: hidden;
+    /* Ensure images don't overflow */
+}
+
+/* Ensuring the images fit well */
+.carousel-inner img {
+    width: 100%;
+    /* Ensure images take up full width */
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: cover;
+    /* Ensure images cover the area evenly */
+}
+
+/* Styling carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    border-radius: 50%;
+    /* Round control buttons */
+    padding: 10px;
+    /* Add padding to the control icons */
+}
+
+/* Styling the carousel indicators */
+.carousel-indicators button {
+    background-color: #fff;
+    /* White indicators */
+    border-radius: 50%;
+    /* Round indicators */
+    width: 10px;
+    /* Size of indicators */
+    height: 10px;
+    /* Size of indicators */
+    opacity: 0.7;
+    /* Slight transparency */
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    /* Fully opaque for active indicator */
+}
+
+/* Yoga With Me Section */
+#YOGAWITHME {
+    background-color: #000;
+    /* Black background */
+    padding: 20px;
+    /* Add padding around the section */
+    color: #fff;
+    /* Default text color */
+}
+
+/* Heading Styling */
+#YOGAWITHME h2 {
+    color: #fff;
+    /* White color for the heading */
+    font-size: 2em;
+    /* Adjust the size as needed */
+    margin-bottom: 15px;
+    /* Space between heading and paragraph */
+}
+
+/* Paragraph Styling */
+#YOGAWITHME p {
+    color: #d3d3d3;
+    /* Slightly less bright white for the paragraph */
+    font-size: 1em;
+    /* Adjust the size as needed */
+    line-height: 1.6;
+    /* Improve readability */
+    margin: 0;
+    /* Remove default margins */
+}
+
+/* Yoga Tips & Tricks Section */
+#tips {
+    background-color: #000;
+    /* Black background */
+    color: #d3d3d3;
+    /* Default text color for tips */
+    padding: 20px;
+    /* Add padding around the section */
+    display: flex;
+    /* Use flexbox for centering content */
+    flex-direction: column;
+    /* Align items in a column */
+    align-items: center;
+    /* Center horizontally */
+    justify-content: center;
+    /* Center vertically */
+    min-height: 400px;
+    /* Ensure a minimum height for proper centering */
+}
+
+/* Heading Styling */
+#tips h2 {
+    color: #fff;
+    /* White color for the heading */
+    font-size: 2em;
+    /* Adjust the size as needed */
+    margin-bottom: 20px;
+    /* Space between heading and slider */
+    text-align: center;
+    /* Center heading text */
+}
+
+/* Slider Container Styling */
+#tips .slider {
+    width: 100%;
+    /* Ensure slider takes full width */
+    max-width: 800px;
+    /* Limit the width of the slider */
+    display: flex;
+    /* Use flexbox to align content */
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+    padding: 20px;
+    /* Add padding around the slider content */
+    border: 1px solid #d3d3d3;
+    /* Optional: add a border for better visibility */
+    background-color: #333;
+    /* Optional: slightly different background color for the slider */
+}
+
+/* Slider Content Styling */
+.slider h3 {
+    color: #d3d3d3;
+    /* Color for the text inside the slider */
+    font-size: 1.2em;
+    /* Adjust the font size as needed */
+    text-align: center;
+    /* Center the text */
+    margin: 0;
+    /* Remove default margins */
+    padding: 10px;
+    /* Add padding around the text */
+}
+
+/* Skills Section */
+#skills {
+    background-color: #000;
+    /* Black background */
+    color: #d3d3d3;
+    /* Light gray for text */
+    padding: 20px;
+    /* Add padding around the section */
+}
+
+#skills h2 {
+    color: #fff;
+    /* White color for the heading */
+    font-size: 2em;
+    /* Adjust the size as needed */
+    margin-bottom: 20px;
+    /* Space between heading and skill cards */
+    text-align: center;
+    /* Center the heading text */
+}
+
+/* Skill Card Container */
+.skill-card {
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Center items vertically */
+    margin-bottom: 40px;
+    /* Space between skill cards */
+    padding: 20px;
+    /* Add padding inside each card */
+    border: 1px solid #d3d3d3;
+    /* Light border for better visibility */
+    background-color: #333;
+    /* Dark background for skill cards */
+    flex-wrap: wrap;
+    /* Allow wrapping if needed */
+}
+
+.skill-card img {
+    width: 150px;
+    /* Fixed width for the images */
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: cover;
+    /* Ensure images cover the area evenly */
+    margin: 0 20px;
+    /* Space between image and text */
+    border-radius: 8px;
+    /* Optional: add rounded corners */
+}
+
+.skill-card.reverse img {
+    order: -1;
+    /* Place image before text in reverse layout */
+    margin: 0 20px 0 0;
+    /* Space on left side for reversed layout */
+}
+
+.text-content {
+    flex: 1;
+    /* Allow text content to take up remaining space */
+    max-width: calc(100% - 170px);
+    /* Ensure text content does not exceed space */
+}
+
+.skill-card h3 {
+    color: #fff;
+    /* White color for subheadings */
+    font-size: 1.5em;
+    /* Adjust the size as needed */
+    margin-bottom: 10px;
+    /* Space between heading and paragraph */
+    overflow-wrap: break-word;
+    /* Ensure text wraps within the container */
+}
+
+.skill-card p {
+    color: #ffeb3b;
+    /* Bright color for the paragraph text */
+    font-size: 1em;
+    /* Adjust the size as needed */
+    margin: 0;
+    /* Remove default margins */
+    padding: 10px;
+    /* Add padding inside the paragraph */
+    background-color: #222;
+    /* Slightly different background for better contrast */
+    border-radius: 5px;
+    /* Optional: add rounded corners */
+    overflow-wrap: break-word;
+    /* Ensure text wraps within the container */
+}
+
+/* About Me Section */
+#about {
+    background-color: #000;
+    /* Black background */
+    color: #d3d3d3;
+    /* Light gray text color */
+    padding: 20px;
+    /* Add padding around the section */
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Center items vertically */
+    gap: 20px;
+    /* Space between text and image */
+    flex-wrap: wrap;
+    /* Allow wrapping for smaller screens */
+}
+
+#about h2 {
+    color: #fff;
+    /* White color for heading */
+    font-size: 2em;
+    /* Adjust size as needed */
+    margin-bottom: 20px;
+    /* Space below heading */
+    text-align: center;
+    /* Center heading text */
+    width: 100%;
+    /* Ensure heading spans full width */
+}
+
+#about p {
+    color: #f0f0f0;
+    /* Light white for paragraph text */
+    font-size: 1em;
+    /* Adjust size as needed */
+    line-height: 1.6;
+    /* Improve readability */
+    max-width: 800px;
+    /* Limit paragraph width */
+}
+
+#about img {
+    width: 300px;
+    /* Fixed width for the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 8px;
+    /* Optional: add rounded corners */
+    flex-shrink: 0;
+    /* Prevent image from shrinking */
+}
+
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1F1F1F;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #1F1F1F;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+}
+
+h1 {
+    color: #FFEB3B;
+    /* Bright yellow color */
+    font-size: 2.5em;
+    text-align: center;
+}
+
+p {
+    color: #FFFFFF;
+    /* White color */
+    font-size: 1.2em;
+    text-align: center;
+}
